@@ -1,0 +1,19 @@
+{
+  "name": "atom-eyetiman",
+  "main": "./lib/atom-yetiman",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-text-editor": ["atom-yetiman:toggle", "atom-yetiman:expand"]
+  },
+  "repository": "https://github.com/atom/atom-yetiman",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "fs-plus": "^2.10.1"
+  }
+}

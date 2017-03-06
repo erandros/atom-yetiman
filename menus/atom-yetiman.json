@@ -1,0 +1,22 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-yetiman",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-yetiman:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
